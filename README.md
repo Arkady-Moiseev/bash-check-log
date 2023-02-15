@@ -1,8 +1,8 @@
 # bash-check-log
 
 <b>Написать скрипт для CRON, который раз в час будет формировать письмо и отправлять на заданную почту.</b>
-
-Необходимая информация в письме:
+___
+<b>Необходимая информация в письме:</b>
 
 Список IP адресов (с наибольшим кол-вом запросов) с указанием кол-ва запросов c момента последнего запуска скрипта;
 
@@ -13,6 +13,13 @@
 Скрипт должен предотвращать одновременный запуск нескольких копий, до его завершения;
 
 Ошибки веб-сервера/приложения c момента последнего запуска.
+___
+<p><b>Скрипт</b> - <a href="https://github.com/Arkady1996/bash-check-log/blob/main/send_mail.sh">send_mail.sh</a>
 
+<p><b>crontab</b></p>
+  
+![img_1](https://github.com/Arkady1996/bash-check-log/blob/main/images/crontab.PNG)
 
-![img_1](https://github.com/Arkady1996/bash-check-log/blob/main/images/report.PNG)
+<p><b>Результат выполнения скрипта</b></p>
+
+![img_2](https://github.com/Arkady1996/bash-check-log/blob/main/images/report.PNG)
